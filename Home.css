@@ -4,7 +4,15 @@
     height: 100vh;
     background: transparent;  
     background-image: url(/abstract-digital-grid-black-background.jpg);
-    /* background-repeat: no-repeat; */
+
+}
+
+.navtext{
+    font-family: Arial, Helvetica, sans-serif   ;
+    color: white;
+}
+.navtext:hover{
+    color: #DC143C;
 }
 
 @media only screen and(max-width: 412px)
@@ -103,7 +111,7 @@
 }
 
 .card{
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: rgb(237, 235, 188);
 }.card:hover{ border: 2px solid;}
 
@@ -140,4 +148,8 @@
     border: 2px solid;
     border-color: #DC143C;
     background-color: rgb(213, 217, 220);
+}
+
+.navbar-toggler{
+    background-color:#DC143C
 }
