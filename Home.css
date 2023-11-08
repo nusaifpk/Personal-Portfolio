@@ -1,7 +1,7 @@
 .container-fluid{
    
     width: 100%;
-    height: 100vh;
+    height: 730px;
     background: transparent;  
     background-image: url(/abstract-digital-grid-black-background.jpg);
 
@@ -14,14 +14,14 @@
 .navtext:hover{
     color: #DC143C;
 }
-
+/* 
 @media only screen and(max-width: 412px)
 {
     .container-fluid{
-        height: 100vh;
+       
     }
     
-}
+} */
 .imgxplor{
     height: 50px;
 }
@@ -153,3 +153,4 @@
 .navbar-toggler{
     background-color:#DC143C
 }
+
