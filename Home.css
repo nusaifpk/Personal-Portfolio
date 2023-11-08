@@ -73,16 +73,12 @@
 }
 
 
-.slide2,.slide3,.slide4,.slide5,.slide6{
-    height: 100vh;
-    width: 100%;
-    background-color: #fafafa;
-}
+
 
 .abouttext{
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 27px;
+    font-size: 40px;
 }
 .aboutarea{
     
@@ -111,6 +107,7 @@
 }
 
 .card{
+    
     border-radius: 25px;
     background-color: rgb(237, 235, 188);
 }.card:hover{ border: 2px solid;}
@@ -152,5 +149,9 @@
 
 .navbar-toggler{
     background-color:#DC143C
+}
+
+.tbl{
+    font-size: 30px;
 }
 
