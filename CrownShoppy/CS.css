@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(115, 156, 104);
+    height:60px;
+    width:100%;
+}
+
+.headerlogo{
+    margin-top: 10px;
+    margin-left: 10px;
+    height:40px;
+    width:40px;
+}
+.headertext{
+    position: relative;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-style:italic;
+}
+
+.inputsearch{
+    position: relative;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(222, 221, 221);
+    height:40px;
+    width: 300px;
+    border: 0;
+    border-radius: 50px;
+    margin-left: 800px;
+    margin-top: 10px;
+    padding-left: 0px;  
+}
+.inputsearch:hover{
+    background-color: rgb(197, 199, 201);
+
+}
+
+.search{
+    position: relative;
+    margin-top: 19px;
+    margin-left: -40px;
+    z-index: 1;
+    height:25px;
+    width: 25px;
+    
+}
+.search:hover{
+    cursor: pointer;
+}
+
+.profile{
+   position: absolute;
+    margin-top: 10px;
+    margin-left:30px;
+    height:40px;
+    width: 40px;
+    opacity: 0.8;
+}
+.profile:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.cart{
+    position: relative;
+    margin-top: 10px;
+    margin-left:80px;
+    height:40px;
+    width: 40px;
+    opacity: 0.8;
+}
+.cart:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.bar{
+    position: relative;
+    margin-top: 10px;
+    margin-left:15px;
+    height:40px;
+    width: 40px;
+    opacity: 0.8;
+}
+.bar:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+
+.wt{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cs{
+    color: rgb(180, 106, 79);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.picture1,.picture2,.picture3,.picture4,.picture5,.picture6{
+    height:300px;
+    width:380px;
+}
+
+.picture2,.picture4,.picture6{
+    position: relative;
+    margin-left: 800px;
+}
+.picture1,.picture3,.picture5{
+    position: absolute;
+    margin-left: 400px;
+}
+
+.btn1{
+    z-index: 2;
+    position: absolute;
+    margin-top: -350px;
+    margin-left:-630px    
+}
+.btn2{
+    z-index: 2;
+    position: absolute;
+    margin-top: -350px;
+    margin-left:-230px    
+}
+.btn3{
+    z-index: 2;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 556px;   
+}
+.btn4{
+    z-index: 2;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 970px;   
+}
+.btn5{
+    z-index: 2;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 556px;   
+}
+.btn6{
+    z-index: 2;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 970px;  
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+    background-color: rgb(205, 205, 196);
+    border:5
+}.btn1,.btn2,.btn3,.btn4,.btn5,.btn6:hover{
+    cursor: pointer;
+}

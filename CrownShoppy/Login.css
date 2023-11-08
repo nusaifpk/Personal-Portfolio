@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    background-color: white ;
+    height: 100%;   
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(115, 156, 104);
+    height:60px;
+    width:100%;
+}
+
+.headerlogo{
+    margin-top: 10px;
+    margin-left: 10px;
+    height:40px;
+    width:40px;
+}
+.headertext{
+    position: relative;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    font-style:italic;
+}
+
+
+.inputsearch{
+    position: relative;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(222, 221, 221);
+    height:40px;
+    width: 300px;
+    border: 0;
+    border-radius: 50px;
+    margin-left: 800px;
+    margin-top: 10px;
+}
+.inputsearch:hover{
+    background-color: rgb(197, 199, 201);
+
+}
+
+.search{
+    position: relative;
+    margin-top: 19px;
+    margin-left: -40px;
+    z-index: 1;
+    height:25px;
+    width: 25px;
+}
+.search:hover{
+    cursor: pointer;
+}
+
+.profile{
+   position: absolute;
+    margin-top: 10px;
+    margin-left:30px;
+    height:40px;
+    width: 40px;
+    opacity: 0.8;
+}
+.profile:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.cart{
+    position: relative;
+    margin-top: 10px;
+    margin-left:80px;
+    height:40px;
+    width: 40px;
+    opacity: 0.8;
+}
+.cart:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.bar{
+    position: relative;
+    margin-top: 10px;
+    margin-left:15px;
+    height:40px;
+    width: 40px;
+    opacity: 0.8;
+}
+.bar:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.main{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 150px;
+
+}
+.loginwindow{
+    border: 3px solid;
+    border-radius: 10px;
+    border-color:rgb(88, 86, 86);
+    background-color:rgb(237, 234, 228);
+    height: 500px;
+    width: 500px;
+}
+
+.LOG{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    
+}
+
+.username{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -200px;
+
+}
+
+
+.userinput{
+    position: relative;
+    height: 50px;
+    width: 400px;
+    margin-top: 30px;  
+    padding-left: 10px;  
+}
+.userinput:hover{
+    cursor: pointer;
+    text-decoration: black;
+    background-color:rgb(115, 156, 104);
+}
+
+
+.password{
+    position: relative;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -200px;
+}
+.passinput{
+    position: relative;
+    height: 50px;
+    width: 400px;
+    margin-top: 100px;  
+    padding-left: 10px;    
+}
+.passinput:hover{
+    cursor: pointer;
+    color: black;
+    background-color:rgb(115, 156, 104);
+}
+
+
+.frgtpaswrd{
+    font-size: 12px;
+    position: relative;
+    margin-left: -320px;
+}
+
+
+.btnlogin{
+    position: relative;
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+}
+.btnlogin:hover{
+    cursor: pointer;
+    color: black;
+    background-color:rgb(115, 156, 104);
+}
+
+
+.signupconnect{
+    position: relative;
+}

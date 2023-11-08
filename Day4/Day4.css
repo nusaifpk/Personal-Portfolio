@@ -1,0 +1,222 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+
+w3icon{
+    padding-top:4px;
+    width: 50px;
+    height: 50px;;
+}
+
+.mainoption{
+    color: black;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.mainoption:hover{
+    background-color:#04AA6D;
+    width: auto;
+    height:30px;
+}
+.arrowicon{
+    width:10px;
+    height: 10px;
+}
+
+body{
+    margin: 0;
+    background-color: #D9EEE1;
+}
+
+.btntext1{
+    margin-right: 10px;
+    margin-top: 10px;    
+}
+.btn1{
+    border: 0;
+    width: 60px;
+    height: 40px;
+    border-radius:30px;
+    color: white;
+    background-color: rgb(23, 22, 22);
+}
+.btn1:hover{
+    background-color: black;     
+}
+
+.btntext2{
+    margin-right: 10px;
+    margin-top: 10px;    
+}
+.btn2{
+    border: 0;
+    width: 100px;
+    height: 40px;
+    border-radius:30px;
+    color: black;
+    background-color: rgb(228, 147, 147);
+}
+.btn2:hover{
+        background-color: rgb(188, 106, 106);     
+}
+
+.btntext3{
+    margin-right: 10px;
+    margin-top: 10px;  
+}
+.btn3{
+    border: 0;
+    width: 110px;
+    height: 40px;
+    border-radius:30px;
+    color: black;
+    background-color: rgb(208, 222, 100);
+}
+.btn3:hover{
+    background-color:rgb(127, 138, 48);     
+}
+
+.btntext4{
+    margin-right: 10px;
+    margin-top: 10px;    
+}
+.btn4{
+    
+    z-index: 4;
+    position: relative;
+    border: 0;  
+    width: 90px;
+    height: 40px;
+    border-radius:30px;
+    color: white;
+    background-color:#04AA6D;
+}
+.btn4:hover{
+    background-color:#096f4a;     
+}
+
+.btntext5{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.btn5{
+    padding-left: 40px;
+    margin-left: -50px;
+    position: relative;
+    border: 0;
+    width: 90px;
+    height: 40px;
+    border-radius:30px;
+    color: black;
+    background-color:rgb(231, 222, 222);
+}
+.btn5:hover{
+    background-color: #096f4a;     
+}
+
+.secondheader{
+    display: flex;
+    width: 100%;
+    margin-top:0px; 
+    height: 40px;
+    background-color: rgb(44, 51, 58);
+}
+
+.homeicon{
+    height: 20px;
+    width:20px;
+    padding-left: 5px;
+    padding-top: 9px;
+}
+.darkmode{
+    padding-left: 660px;
+    padding-top: 10px;
+    height: 23px;
+    width:22px;
+}
+.global{
+    padding-left: 10px;
+    padding-top: 12px;
+    height: 18px;
+    width:18px;
+}
+.search{
+    padding-left: 10px;
+    padding-top: 12px;
+    height: 19px;
+    width:19px;
+}
+
+a{
+    display: inline-block;
+    list-style: none;
+    padding: 10px; 
+    margin-top: -4px;
+    text-decoration: none;
+    color: white;
+}
+.bgchange{
+    margin-top: 1px;
+}
+.bgchange:hover{
+    width: auto;
+    background-color: black;
+}
+.mainpagebackground{
+    background-image:url(https://www.w3schools.com/images/background_in_space.gif);
+    padding-top: 1px;
+    width: 100%;
+    height: 520px;
+}
+
+.maintext{
+    color: white;
+    font-size: 35px;
+    margin-top: 90px;
+}
+
+.landinglogo{
+    width: 50px;
+    height:50px;
+    margin-left:1060px;
+    margin-top:-55px;
+}
+
+.subtext{
+    margin-top: -30px;
+    font-size: 25px;
+}
+
+.searchbar{
+    
+    border: 3px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -100px;
+    height: 40px;
+    width:450px;
+    border-radius: 50px;
+}
+
+.btnsearch{
+    background-color:#04AA6D;
+    z-index: 3;
+    position: absolute;
+    margin-left: 275px;
+    margin-top:29px;
+    height:44px;
+    width:80px;
+  
+    border-top-right-radius:50px;
+    border-bottom-right-radius: 50px;
+}
+.btnsearch:hover{
+    background-color: #096f4a;
+}
+
+.sublinktext{
+    margin-top: 100px;
+}

@@ -1,0 +1,143 @@
+.container-fluid{
+   
+    width: 100%;
+    height: 100vh;
+    background: transparent;  
+    background-image: url(/abstract-digital-grid-black-background.jpg);
+    /* background-repeat: no-repeat; */
+}
+
+@media only screen and(max-width: 412px)
+{
+    .container-fluid{
+        height: 100vh;
+    }
+    
+}
+.imgxplor{
+    height: 50px;
+}
+
+.nav-link{
+
+    color: white;
+}
+
+.nav-link:hover{
+    color: #DC143C;
+    transform: scale(1.1);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler{
+    background-color: rgb(105, 93, 23);
+}
+.maintext{
+    
+    color: white;
+    font-size: 40px;
+}
+.subtext{
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    color: rgb(210, 201, 201);
+    font-size: 20px;
+}
+.talkbtn{
+    height: 50px;
+    width:100px;
+    border:1px solid;
+    border-color: #DC143C;
+    background-color: transparent;
+}
+
+
+.talktext{
+    text-decoration: none;
+    color:#DC143C;
+}
+
+
+
+.myphoto{
+    height: 660px;
+}
+
+
+.slide2,.slide3,.slide4,.slide5,.slide6{
+    height: 100vh;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.abouttext{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+}
+.aboutarea{
+    
+   
+    border-radius: 25px;
+    background-color: rgb(215, 176, 176);
+    height: 600px;
+    width: 800px;
+}
+.aboutarea2{
+    border-radius:25px;
+    background-color: gray;
+    height: 600px;
+    width: 800px;
+}
+
+
+
+.bgvideo{
+    position: absolute;
+    z-index: -6;
+    right: 0;
+    position: 0;
+  
+   
+}
+
+.card{
+    border-radius: 15px;
+    background-color: rgb(237, 235, 188);
+}.card:hover{ border: 2px solid;}
+
+.icons{
+    height: 30px;
+    width: 30px;
+}
+.footer{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #333;
+    height:100px;
+    width: 100%;
+}
+
+.footertext{
+    color: white;
+}
+.name{
+    color: #DC143C;
+}
+
+.head{
+    color: #DC143C;
+}
+
+.btn,.progress-bar{
+    background-color:#DC143C;
+}
+.btn:hover{
+    background-color:#990d29;
+}
+.form-control:hover{
+    border: 2px solid;
+    border-color: #DC143C;
+    background-color: rgb(213, 217, 220);
+}
