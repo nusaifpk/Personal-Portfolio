@@ -67,7 +67,7 @@
 }
 
 
-.talktext{
+.talktext,.talktext:hover{
     text-decoration: none;
     color:#DC143C;
 }
